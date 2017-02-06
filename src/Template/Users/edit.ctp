@@ -19,7 +19,8 @@
             echo $this->Form->input('email');
             echo $this->Form->input('password');
         ?>
+         <?= $this->Form->button(__('Submit'),array('class'=>'btn btn-md btn-info')) ?>
     </fieldset>
-    <?= $this->Form->button(__('Submit')) ?>
+   
     <?= $this->Form->end() ?>
 </div>
