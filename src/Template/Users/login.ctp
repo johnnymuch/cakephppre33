@@ -10,9 +10,7 @@
 				        <legend><?= __('Login User') ?></legend>
 				        <?= $this->Form->input('username') ?>
 				        <?= $this->Form->input('password') ?>
-				        <?= $this->Form->input('role', [
-				            'options' => ['admin' => 'Admin', 'author' => 'Author']
-				        ]) ?>
+				       
 				  
 				<?= $this->Form->button(__('Submit'),array('class'=>'btn btn-md btn-info')); ?>
 				 </fieldset>
