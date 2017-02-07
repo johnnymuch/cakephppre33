@@ -20,7 +20,7 @@
                 <th scope="col"><?= $this->Paginator->sort('password') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('role') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('photo') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('dir') ?></th>
+            
                 <th scope="col" class="actions"><?= __('Actions') ?></th>
             </tr>
         </thead>
@@ -33,11 +33,11 @@
                 <td><?= h($upload->password) ?></td>
                 <td><?= h($upload->role) ?></td>
                 <td><img src="../img/<?= h($upload->photo) ?>" alt=""></td>
-                <td><?= h($upload->dir) ?></td>
+             
                 <td class="actions">
-                    <?= $this->Html->link(__('View'), ['action' => 'view', $upload->id]) ?>
-                    <?= $this->Html->link(__('Edit'), ['action' => 'edit', $upload->id]) ?>
-                    <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $upload->id], ['confirm' => __('Are you sure you want to delete # {0}?', $upload->id)]) ?>
+                   
+                    <?= $this->Html->link(__('Edit'), ['action' => 'edit', $upload->id],array('class'=>'btn btn-xs btn-info')) ?>
+                    <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $upload->id], ['confirm' => __('Are you sure you want to delete # {0}?', $upload->id),'class'=>'btn btn-danger btn-xs']) ?>
                 </td>
             </tr>
             <?php endforeach; ?>

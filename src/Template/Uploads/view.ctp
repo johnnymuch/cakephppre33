@@ -33,7 +33,7 @@
         </tr>
         <tr>
             <th scope="row"><?= __('Photo') ?></th>
-           <td><img src="../img/<?= h($upload->photo) ?>" alt=""></td>
+           <td><img src="<?= h($upload->photo) ?>" alt=""></td>
         </tr>
         <tr>
             <th scope="row"><?= __('Dir') ?></th>

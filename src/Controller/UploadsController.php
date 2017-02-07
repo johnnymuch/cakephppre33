@@ -11,7 +11,7 @@ use App\Controller\AppController;
 class UploadsController extends AppController
 {
      public $paginate = [
-        'fields' => ['Uploads.id','Uploads.username','Uploads.name', 'Uploads.password', 'Uploads.role', 'Uploads.dir'],
+        'fields' => ['Uploads.id','Uploads.username','Uploads.name', 'Uploads.password', 'Uploads.role', 'Uploads.dir','Uploads.photo'],
         'limit' => 3,
         'order' => [
             'Uploads.title' => 'asc'
@@ -25,6 +25,7 @@ class UploadsController extends AppController
      */
     public function index()
     {
+        $this->viewBuilder()->layout('backend');
         $uploads = $this->paginate($this->Uploads);
 
         $this->set(compact('uploads'));
@@ -40,6 +41,7 @@ class UploadsController extends AppController
      */
     public function view($id = null)
     {
+        $this->viewBuilder()->layout('backend');
         $upload = $this->Uploads->get($id, [
             'contain' => []
         ]);
@@ -55,6 +57,7 @@ class UploadsController extends AppController
      */
     public function add()
     {
+        $this->viewBuilder()->layout('backend');
         $upload = $this->Uploads->newEntity();
         if ($this->request->is('post')) {
             $upload = $this->Uploads->patchEntity($upload, $this->request->data);
@@ -80,6 +83,7 @@ class UploadsController extends AppController
      */
     public function edit($id = null)
     {
+        $this->viewBuilder()->layout('backend');
         $upload = $this->Uploads->get($id, [
             'contain' => []
         ]);
@@ -105,6 +109,7 @@ class UploadsController extends AppController
      */
     public function delete($id = null)
     {
+        $this->viewBuilder()->layout('backend');
         $this->request->allowMethod(['post', 'delete']);
         $upload = $this->Uploads->get($id);
         if ($this->Uploads->delete($upload)) {

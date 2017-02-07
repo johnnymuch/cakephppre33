@@ -21,7 +21,8 @@
             echo $this->Form->file('photo');
             echo $this->Form->input('dir');
         ?>
+        <?= $this->Form->button(__('Submit'),array('class'=>'btn btn-md btn-info')) ?>
     </fieldset>
-    <?= $this->Form->button(__('Submit')) ?>
+    
     <?= $this->Form->end() ?>
 </div>
