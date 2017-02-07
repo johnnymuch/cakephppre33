@@ -12,7 +12,7 @@ class UploadsController extends AppController
 {
      public $paginate = [
         'fields' => ['Uploads.id','Uploads.username','Uploads.name', 'Uploads.password', 'Uploads.role', 'Uploads.dir','Uploads.photo'],
-        'limit' => 3,
+        'limit' => 4,
         'order' => [
             'Uploads.title' => 'asc'
         ]
