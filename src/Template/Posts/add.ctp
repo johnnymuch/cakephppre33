@@ -13,6 +13,7 @@
             echo $this->Form->input('body');
             echo $this->Form->input('category');
             echo $this->Form->input('anthor');
+            echo $this->Form->input('upload', ['type' => 'file']);
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

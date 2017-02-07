@@ -13,8 +13,8 @@
                 <th scope="col"><?= $this->Paginator->sort('title') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('category') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('anthor') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('created') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('modified') ?></th>
+                
+            
                 <th scope="col" class="actions"><?= __('Actions') ?></th>
             </tr>
         </thead>
@@ -25,12 +25,13 @@
                 <td><?= h($post->title) ?></td>
                 <td><?= h($post->category) ?></td>
                 <td><?= h($post->anthor) ?></td>
-                <td><?= h($post->created) ?></td>
-                <td><?= h($post->modified) ?></td>
+             
+             
                 <td class="actions">
-                    <?= $this->Html->link(__('View'), ['action' => 'view', $post->id]) ?>
-                    <?= $this->Html->link(__('Edit'), ['action' => 'edit', $post->id]) ?>
-                    <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $post->id], ['confirm' => __('Are you sure you want to delete # {0}?', $post->id)]) ?>
+                    <?= $this->Html->link(__('View'), ['action' => 'view', $post->id],array('class'=>'btn btn-xs btn-info')) ?>
+                    <?= $this->Html->link(__('Edit'), ['action' => 'edit', $post->id],array('class'=>'btn btn-xs btn-success')) ?>                
+                     <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $post->id], ['confirm' => __('Are you sure you want to delete # {0}?', $post->id),'class'=>'btn btn-danger btn-xs']) ?>
+
                 </td>
             </tr>
             <?php endforeach; ?>

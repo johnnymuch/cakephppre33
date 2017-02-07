@@ -66,6 +66,7 @@ class PostsTable extends Table
         $validator
             ->requirePresence('anthor', 'create')
             ->notEmpty('anthor');
+     
 
         return $validator;
     }

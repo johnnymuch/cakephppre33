@@ -113,4 +113,16 @@ class PostsController extends AppController
 
         return $this->redirect(['action' => 'index']);
     }
+
+    /**
+    *
+    * pagenation 
+    */
+    public $paginate = [
+        'fields' => ['Posts.id','Posts.title','Posts.category','Posts.anthor', 'Posts.created'],
+        'limit' => 2,
+        'order' => [
+            'Posts.title' => 'asc'
+        ]
+    ];
 }
