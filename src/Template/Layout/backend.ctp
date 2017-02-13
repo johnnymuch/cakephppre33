@@ -55,15 +55,17 @@ $cakeDescription = 'Welcome to Cakephp Developer';
         <li class="active"><a href="/posts">Post <span class="sr-only">(current)</span></a></li>
         <li><a href="/uploads">Uploads</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Apple</a></li>
-            <li><a href="#">Dell</a></li>
-            <li><a href="#">Acer</a></li>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Languages <span class="caret"></span></a>
+          <ul class="dropdown-menu text-center">
+            <li><a href="#">English</a></li>
+               <li role="separator" class="divider"></li>
+            <li><a href="#">France</a></li>
+               <li role="separator" class="divider"></li>
+            <li><a href="#">Japan</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Asus</a></li>
+            <li><a href="#">China</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Lenevo</a></li>
+            <li><a href="#">Khmer</a></li>
           </ul>
         </li>
       </ul>
