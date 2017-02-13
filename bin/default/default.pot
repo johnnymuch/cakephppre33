@@ -1,0 +1,411 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2017-02-13 03:21+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/DashboardsController.php:55;80
+msgid "The dashboard has been saved."
+msgstr ""
+
+#: Controller/DashboardsController.php:59;84
+msgid "The dashboard could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/DashboardsController.php:102
+msgid "The dashboard has been deleted."
+msgstr ""
+
+#: Controller/DashboardsController.php:104
+msgid "The dashboard could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/HomeController.php:35
+msgid "File has been uploaded and inserted successfully."
+msgstr ""
+
+#: Controller/HomeController.php:37;40
+msgid "Unable to upload file, please try again."
+msgstr ""
+
+#: Controller/HomeController.php:43
+msgid "Please choose a file to upload."
+msgstr ""
+
+#: Controller/PostsController.php:58;85
+msgid "The post has been saved."
+msgstr ""
+
+#: Controller/PostsController.php:62;89
+msgid "The post could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PostsController.php:109
+msgid "The post has been deleted."
+msgstr ""
+
+#: Controller/PostsController.php:111
+msgid "The post could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UploadsController.php:65;93
+msgid "The upload has been saved."
+msgstr ""
+
+#: Controller/UploadsController.php:69;97
+msgid "The upload could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UploadsController.php:116
+msgid "The upload has been deleted."
+msgstr ""
+
+#: Controller/UploadsController.php:118
+msgid "The upload could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:67;95
+msgid "The user has been saved."
+msgstr ""
+
+#: Controller/UsersController.php:71;99
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:119
+msgid "The user has been deleted."
+msgstr ""
+
+#: Controller/UsersController.php:121
+msgid "The user could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:136
+msgid "Enter Username or Password, Try Again"
+msgstr ""
+
+#: Template/Files/add.ctp:8
+#: Template/Files/edit.ctp:8
+#: Template/Files/index.ctp:8;23
+#: Template/Files/view.ctp:8
+#: Template/Posts/add.ctp:3
+#: Template/Posts/edit.ctp:3
+#: Template/Posts/index.ctp:3;18
+#: Template/Posts/view.ctp:3
+#: Template/Uploads/add.ctp:8
+#: Template/Uploads/edit.ctp:8
+#: Template/Uploads/index.ctp:8;24
+#: Template/Uploads/view.ctp:8
+#: Template/Users/add.ctp:3
+#: Template/Users/edit.ctp:3
+#: Template/Users/index.ctp:3;18
+#: Template/Users/view.ctp:3
+msgid "Actions"
+msgstr ""
+
+#: Template/Files/add.ctp:9
+#: Template/Files/edit.ctp:15
+#: Template/Files/view.ctp:11
+msgid "List Files"
+msgstr ""
+
+#: Template/Files/add.ctp:15
+msgid "Add File"
+msgstr ""
+
+#: Template/Files/add.ctp:22
+#: Template/Files/edit.ctp:28
+#: Template/Posts/add.ctp:18
+#: Template/Posts/edit.ctp:24
+#: Template/Uploads/add.ctp:24
+#: Template/Uploads/edit.ctp:30
+#: Template/Users/add.ctp:16
+#: Template/Users/edit.ctp:22
+msgid "Submit"
+msgstr ""
+
+#: Template/Files/edit.ctp:10
+#: Template/Files/index.ctp:38
+#: Template/Posts/edit.ctp:5
+#: Template/Uploads/edit.ctp:10
+#: Template/Uploads/index.ctp:40
+#: Template/Users/edit.ctp:5
+msgid "Delete"
+msgstr ""
+
+#: Template/Files/edit.ctp:12
+#: Template/Files/index.ctp:38
+#: Template/Files/view.ctp:10
+#: Template/Posts/edit.ctp:7
+#: Template/Posts/index.ctp:33
+#: Template/Posts/view.ctp:5
+#: Template/Uploads/edit.ctp:12
+#: Template/Uploads/index.ctp:40
+#: Template/Uploads/view.ctp:10
+#: Template/Users/edit.ctp:7
+#: Template/Users/index.ctp:33
+#: Template/Users/view.ctp:5
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: Template/Files/edit.ctp:21
+#: Template/Files/view.ctp:9
+msgid "Edit File"
+msgstr ""
+
+#: Template/Files/index.ctp:9
+#: Template/Files/view.ctp:12
+msgid "New File"
+msgstr ""
+
+#: Template/Files/index.ctp:13
+msgid "Files"
+msgstr ""
+
+#: Template/Files/index.ctp:36
+msgid "View"
+msgstr ""
+
+#: Template/Files/index.ctp:37
+#: Template/Uploads/index.ctp:39
+msgid "Edit"
+msgstr ""
+
+#: Template/Files/index.ctp:46
+#: Template/Posts/index.ctp:42
+#: Template/Uploads/index.ctp:48
+#: Template/Users/index.ctp:41
+msgid "first"
+msgstr ""
+
+#: Template/Files/index.ctp:47
+#: Template/Posts/index.ctp:43
+#: Template/Uploads/index.ctp:49
+#: Template/Users/index.ctp:42
+msgid "previous"
+msgstr ""
+
+#: Template/Files/index.ctp:49
+#: Template/Posts/index.ctp:45
+#: Template/Uploads/index.ctp:51
+#: Template/Users/index.ctp:44
+msgid "next"
+msgstr ""
+
+#: Template/Files/index.ctp:50
+#: Template/Posts/index.ctp:46
+#: Template/Uploads/index.ctp:52
+#: Template/Users/index.ctp:45
+msgid "last"
+msgstr ""
+
+#: Template/Files/index.ctp:52
+#: Template/Posts/index.ctp:48
+#: Template/Uploads/index.ctp:54
+#: Template/Users/index.ctp:47
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr ""
+
+#: Template/Files/view.ctp:10
+msgid "Delete File"
+msgstr ""
+
+#: Template/Files/view.ctp:19
+#: Template/Uploads/view.ctp:19
+msgid "Name"
+msgstr ""
+
+#: Template/Files/view.ctp:23
+msgid "Path"
+msgstr ""
+
+#: Template/Files/view.ctp:27
+#: Template/Posts/view.ctp:26
+#: Template/Uploads/view.ctp:43
+#: Template/Users/view.ctp:26
+msgid "Id"
+msgstr ""
+
+#: Template/Files/view.ctp:31
+#: Template/Posts/view.ctp:30
+#: Template/Users/view.ctp:30
+msgid "Created"
+msgstr ""
+
+#: Template/Files/view.ctp:35
+#: Template/Posts/view.ctp:34
+#: Template/Users/view.ctp:34;38
+msgid "Modified"
+msgstr ""
+
+#: Template/Files/view.ctp:39
+msgid "Status"
+msgstr ""
+
+#: Template/Files/view.ctp:40
+msgid "Yes"
+msgstr ""
+
+#: Template/Files/view.ctp:40
+msgid "No"
+msgstr ""
+
+#: Template/Layout/error.ctp:35
+#: Template/Error/error400.ctp:36
+#: Template/Error/error500.ctp:41
+msgid "Error"
+msgstr ""
+
+#: Template/Layout/error.ctp:43
+msgid "Back"
+msgstr ""
+
+#: Template/Posts/add.ctp:4
+#: Template/Posts/edit.ctp:10
+#: Template/Posts/view.ctp:6
+msgid "List Posts"
+msgstr ""
+
+#: Template/Posts/add.ctp:10
+msgid "Add Post"
+msgstr ""
+
+#: Template/Posts/edit.ctp:16
+#: Template/Posts/view.ctp:4
+msgid "Edit Post"
+msgstr ""
+
+#: Template/Posts/index.ctp:4
+#: Template/Posts/view.ctp:7
+msgid "New Post"
+msgstr ""
+
+#: Template/Posts/index.ctp:8
+msgid "Posts"
+msgstr ""
+
+#: Template/Posts/index.ctp:31;32;33
+#: Template/Users/index.ctp:31;32;33
+msgid ""
+msgstr ""
+
+#: Template/Posts/view.ctp:5
+msgid "Delete Post"
+msgstr ""
+
+#: Template/Posts/view.ctp:14
+msgid "Title"
+msgstr ""
+
+#: Template/Posts/view.ctp:18
+msgid "Category"
+msgstr ""
+
+#: Template/Posts/view.ctp:22
+msgid "Anthor"
+msgstr ""
+
+#: Template/Posts/view.ctp:39
+msgid "Body"
+msgstr ""
+
+#: Template/Uploads/add.ctp:9
+#: Template/Uploads/edit.ctp:15
+#: Template/Uploads/view.ctp:11
+msgid "List Uploads"
+msgstr ""
+
+#: Template/Uploads/add.ctp:15
+msgid "Add Upload"
+msgstr ""
+
+#: Template/Uploads/edit.ctp:21
+#: Template/Uploads/view.ctp:9
+msgid "Edit Upload"
+msgstr ""
+
+#: Template/Uploads/index.ctp:9
+#: Template/Uploads/view.ctp:12
+msgid "New Upload"
+msgstr ""
+
+#: Template/Uploads/index.ctp:13
+msgid "Uploads"
+msgstr ""
+
+#: Template/Uploads/view.ctp:10
+msgid "Delete Upload"
+msgstr ""
+
+#: Template/Uploads/view.ctp:23
+#: Template/Users/view.ctp:14
+msgid "Username"
+msgstr ""
+
+#: Template/Uploads/view.ctp:27
+#: Template/Users/view.ctp:22
+msgid "Password"
+msgstr ""
+
+#: Template/Uploads/view.ctp:31
+msgid "Role"
+msgstr ""
+
+#: Template/Uploads/view.ctp:35
+msgid "Photo"
+msgstr ""
+
+#: Template/Uploads/view.ctp:39
+msgid "Dir"
+msgstr ""
+
+#: Template/Users/add.ctp:4
+#: Template/Users/edit.ctp:10
+#: Template/Users/view.ctp:6
+msgid "List Users"
+msgstr ""
+
+#: Template/Users/add.ctp:10
+msgid "Add User"
+msgstr ""
+
+#: Template/Users/edit.ctp:16
+#: Template/Users/view.ctp:4
+msgid "Edit User"
+msgstr ""
+
+#: Template/Users/index.ctp:4
+#: Template/Users/view.ctp:7
+msgid "New User"
+msgstr ""
+
+#: Template/Users/login.ctp:6
+msgid "LOGIN AREA"
+msgstr ""
+
+#: Template/Users/view.ctp:5
+msgid "Delete User"
+msgstr ""
+
+#: Template/Users/view.ctp:18
+msgid "Email"
+msgstr ""
+
+#: Template/Error/error400.ctp:37
+msgid "The requested address {0} was not found on this server."
+msgstr ""
+
+#: Template/Error/error500.ctp:39
+msgid "An Internal Error Has Occurred"
+msgstr ""
+
