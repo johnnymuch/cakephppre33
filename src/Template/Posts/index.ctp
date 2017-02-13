@@ -28,9 +28,9 @@
              
              
                 <td class="actions">
-                    <?= $this->Html->link(__('View'), ['action' => 'view', $post->id],array('class'=>'btn btn-xs btn-info')) ?>
-                    <?= $this->Html->link(__('Edit'), ['action' => 'edit', $post->id],array('class'=>'btn btn-xs btn-success')) ?>                
-                     <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $post->id], ['confirm' => __('Are you sure you want to delete # {0}?', $post->id),'class'=>'btn btn-danger btn-xs']) ?>
+                    <?= $this->Html->link(__(''), ['action' => 'view', $post->id],array('class'=>'btn btn-xs btn-info glyphicon glyphicon-eye-open')) ?>
+                    <?= $this->Html->link(__(''), ['action' => 'edit', $post->id],array('class'=>'btn btn-xs btn-success glyphicon glyphicon-edit')) ?>                
+                     <?= $this->Form->postLink(__(''), ['action' => 'delete', $post->id], ['confirm' => __('Are you sure you want to delete # {0}?', $post->id),'class'=>'btn btn-danger btn-xs glyphicon glyphicon-trash']) ?>
 
                 </td>
             </tr>

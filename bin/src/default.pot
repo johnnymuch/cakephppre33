@@ -1,0 +1,1027 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2017-02-13 02:32+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/DashboardsController.php:55;80
+msgid "The dashboard has been saved."
+msgstr ""
+
+#: Controller/DashboardsController.php:59;84
+msgid "The dashboard could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/DashboardsController.php:102
+msgid "The dashboard has been deleted."
+msgstr ""
+
+#: Controller/DashboardsController.php:104
+msgid "The dashboard could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/HomeController.php:35
+msgid "File has been uploaded and inserted successfully."
+msgstr ""
+
+#: Controller/HomeController.php:37;40
+msgid "Unable to upload file, please try again."
+msgstr ""
+
+#: Controller/HomeController.php:43
+msgid "Please choose a file to upload."
+msgstr ""
+
+#: Controller/PostsController.php:58;85
+msgid "The post has been saved."
+msgstr ""
+
+#: Controller/PostsController.php:62;89
+msgid "The post could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PostsController.php:109
+msgid "The post has been deleted."
+msgstr ""
+
+#: Controller/PostsController.php:111
+msgid "The post could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UploadsController.php:65;93
+msgid "The upload has been saved."
+msgstr ""
+
+#: Controller/UploadsController.php:69;97
+msgid "The upload could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UploadsController.php:116
+msgid "The upload has been deleted."
+msgstr ""
+
+#: Controller/UploadsController.php:118
+msgid "The upload could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:67;95
+msgid "The user has been saved."
+msgstr ""
+
+#: Controller/UsersController.php:71;99
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:119
+msgid "The user has been deleted."
+msgstr ""
+
+#: Controller/UsersController.php:121
+msgid "The user could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:136
+msgid "Enter Username or Password, Try Again"
+msgstr ""
+
+#: Template/Files/add.ctp:8
+#: Template/Files/edit.ctp:8
+#: Template/Files/index.ctp:8;23
+#: Template/Files/view.ctp:8
+#: Template/Posts/add.ctp:3
+#: Template/Posts/edit.ctp:3
+#: Template/Posts/index.ctp:3;18
+#: Template/Posts/view.ctp:3
+#: Template/Uploads/add.ctp:8
+#: Template/Uploads/edit.ctp:8
+#: Template/Uploads/index.ctp:8;24
+#: Template/Uploads/view.ctp:8
+#: Template/Users/add.ctp:3
+#: Template/Users/edit.ctp:3
+#: Template/Users/index.ctp:3;18
+#: Template/Users/view.ctp:3
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Element/form.ctp:30
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/index.ctp:42;68
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/view.ctp:63;159
+msgid "Actions"
+msgstr ""
+
+#: Template/Files/add.ctp:9
+#: Template/Files/edit.ctp:15
+#: Template/Files/view.ctp:11
+msgid "List Files"
+msgstr ""
+
+#: Template/Files/add.ctp:15
+msgid "Add File"
+msgstr ""
+
+#: Template/Files/add.ctp:22
+#: Template/Files/edit.ctp:28
+#: Template/Posts/add.ctp:18
+#: Template/Posts/edit.ctp:24
+#: Template/Uploads/add.ctp:24
+#: Template/Uploads/edit.ctp:30
+#: Template/Users/add.ctp:16
+#: Template/Users/edit.ctp:22
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Element/form.ctp:102
+#: View/Helper/FormHelper.php:1804
+msgid "Submit"
+msgstr ""
+
+#: Template/Files/edit.ctp:10
+#: Template/Files/index.ctp:38
+#: Template/Posts/edit.ctp:5
+#: Template/Uploads/edit.ctp:10
+#: Template/Uploads/index.ctp:40
+#: Template/Users/edit.ctp:5
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Element/form.ctp:33
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/index.ctp:105
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/view.ctp:170
+msgid "Delete"
+msgstr ""
+
+#: Template/Files/edit.ctp:12
+#: Template/Files/index.ctp:38
+#: Template/Files/view.ctp:10
+#: Template/Posts/edit.ctp:7
+#: Template/Posts/index.ctp:33
+#: Template/Posts/view.ctp:5
+#: Template/Uploads/edit.ctp:12
+#: Template/Uploads/index.ctp:40
+#: Template/Uploads/view.ctp:10
+#: Template/Users/edit.ctp:7
+#: Template/Users/index.ctp:33
+#: Template/Users/view.ctp:5
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Element/form.ctp:35
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/index.ctp:105
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/view.ctp:65;170
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: Template/Files/edit.ctp:21
+#: Template/Files/view.ctp:9
+msgid "Edit File"
+msgstr ""
+
+#: Template/Files/index.ctp:9
+#: Template/Files/view.ctp:12
+msgid "New File"
+msgstr ""
+
+#: Template/Files/index.ctp:13
+msgid "Files"
+msgstr ""
+
+#: Template/Files/index.ctp:36
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/index.ctp:103
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/view.ctp:168
+msgid "View"
+msgstr ""
+
+#: Template/Files/index.ctp:37
+#: Template/Uploads/index.ctp:39
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/index.ctp:104
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/view.ctp:169
+msgid "Edit"
+msgstr ""
+
+#: Template/Files/index.ctp:46
+#: Template/Posts/index.ctp:42
+#: Template/Uploads/index.ctp:48
+#: Template/Users/index.ctp:41
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/index.ctp:113
+msgid "first"
+msgstr ""
+
+#: Template/Files/index.ctp:47
+#: Template/Posts/index.ctp:43
+#: Template/Uploads/index.ctp:49
+#: Template/Users/index.ctp:42
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/index.ctp:114
+msgid "previous"
+msgstr ""
+
+#: Template/Files/index.ctp:49
+#: Template/Posts/index.ctp:45
+#: Template/Uploads/index.ctp:51
+#: Template/Users/index.ctp:44
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/index.ctp:116
+msgid "next"
+msgstr ""
+
+#: Template/Files/index.ctp:50
+#: Template/Posts/index.ctp:46
+#: Template/Uploads/index.ctp:52
+#: Template/Users/index.ctp:45
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/index.ctp:117
+msgid "last"
+msgstr ""
+
+#: Template/Files/index.ctp:52
+#: Template/Posts/index.ctp:48
+#: Template/Uploads/index.ctp:54
+#: Template/Users/index.ctp:47
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/index.ctp:119
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr ""
+
+#: Template/Files/view.ctp:10
+msgid "Delete File"
+msgstr ""
+
+#: Template/Files/view.ctp:19
+#: Template/Uploads/view.ctp:19
+msgid "Name"
+msgstr ""
+
+#: Template/Files/view.ctp:23
+msgid "Path"
+msgstr ""
+
+#: Template/Files/view.ctp:27
+#: Template/Posts/view.ctp:26
+#: Template/Uploads/view.ctp:43
+#: Template/Users/view.ctp:26
+msgid "Id"
+msgstr ""
+
+#: Template/Files/view.ctp:31
+#: Template/Posts/view.ctp:30
+#: Template/Users/view.ctp:30
+msgid "Created"
+msgstr ""
+
+#: Template/Files/view.ctp:35
+#: Template/Posts/view.ctp:34
+#: Template/Users/view.ctp:34;38
+msgid "Modified"
+msgstr ""
+
+#: Template/Files/view.ctp:39
+msgid "Status"
+msgstr ""
+
+#: Template/Files/view.ctp:40
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/view.ctp:132
+msgid "Yes"
+msgstr ""
+
+#: Template/Files/view.ctp:40
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/view.ctp:132
+msgid "No"
+msgstr ""
+
+#: Template/Layout/error.ctp:35
+#: Template/Error/error400.ctp:36
+#: Template/Error/error500.ctp:41
+msgid "Error"
+msgstr ""
+
+#: Template/Layout/error.ctp:43
+msgid "Back"
+msgstr ""
+
+#: Template/Posts/add.ctp:4
+#: Template/Posts/edit.ctp:10
+#: Template/Posts/view.ctp:6
+msgid "List Posts"
+msgstr ""
+
+#: Template/Posts/add.ctp:10
+msgid "Add Post"
+msgstr ""
+
+#: Template/Posts/edit.ctp:16
+#: Template/Posts/view.ctp:4
+msgid "Edit Post"
+msgstr ""
+
+#: Template/Posts/index.ctp:4
+#: Template/Posts/view.ctp:7
+msgid "New Post"
+msgstr ""
+
+#: Template/Posts/index.ctp:8
+msgid "Posts"
+msgstr ""
+
+#: Template/Posts/index.ctp:31;32;33
+#: Template/Users/index.ctp:31;32;33
+msgid ""
+msgstr ""
+
+#: Template/Posts/view.ctp:5
+msgid "Delete Post"
+msgstr ""
+
+#: Template/Posts/view.ctp:14
+msgid "Title"
+msgstr ""
+
+#: Template/Posts/view.ctp:18
+msgid "Category"
+msgstr ""
+
+#: Template/Posts/view.ctp:22
+msgid "Anthor"
+msgstr ""
+
+#: Template/Posts/view.ctp:39
+msgid "Body"
+msgstr ""
+
+#: Template/Uploads/add.ctp:9
+#: Template/Uploads/edit.ctp:15
+#: Template/Uploads/view.ctp:11
+msgid "List Uploads"
+msgstr ""
+
+#: Template/Uploads/add.ctp:15
+msgid "Add Upload"
+msgstr ""
+
+#: Template/Uploads/edit.ctp:21
+#: Template/Uploads/view.ctp:9
+msgid "Edit Upload"
+msgstr ""
+
+#: Template/Uploads/index.ctp:9
+#: Template/Uploads/view.ctp:12
+msgid "New Upload"
+msgstr ""
+
+#: Template/Uploads/index.ctp:13
+msgid "Uploads"
+msgstr ""
+
+#: Template/Uploads/view.ctp:10
+msgid "Delete Upload"
+msgstr ""
+
+#: Template/Uploads/view.ctp:23
+#: Template/Users/view.ctp:14
+msgid "Username"
+msgstr ""
+
+#: Template/Uploads/view.ctp:27
+#: Template/Users/view.ctp:22
+msgid "Password"
+msgstr ""
+
+#: Template/Uploads/view.ctp:31
+msgid "Role"
+msgstr ""
+
+#: Template/Uploads/view.ctp:35
+msgid "Photo"
+msgstr ""
+
+#: Template/Uploads/view.ctp:39
+msgid "Dir"
+msgstr ""
+
+#: Template/Users/add.ctp:4
+#: Template/Users/edit.ctp:10
+#: Template/Users/view.ctp:6
+msgid "List Users"
+msgstr ""
+
+#: Template/Users/add.ctp:10
+msgid "Add User"
+msgstr ""
+
+#: Template/Users/edit.ctp:16
+#: Template/Users/view.ctp:4
+msgid "Edit User"
+msgstr ""
+
+#: Template/Users/index.ctp:4
+#: Template/Users/view.ctp:7
+msgid "New User"
+msgstr ""
+
+#: Template/Users/login.ctp:6
+msgid "LOGIN AREA"
+msgstr ""
+
+#: Template/Users/view.ctp:5
+msgid "Delete User"
+msgstr ""
+
+#: Template/Users/view.ctp:18
+msgid "Email"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Element/form.ctp:39
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/view.ctp:66
+msgid "List <%= $pluralHumanName %>"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Element/form.ctp:46
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/index.ctp:50
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/view.ctp:74
+msgid "List <%= $this->_pluralHumanName($alias) %>"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Element/form.ctp:47
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/index.ctp:51
+msgid "New <%= $this->_singularHumanName($alias) %>"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Element/form.ctp:59
+msgid "<%= Inflector::humanize($action) %> <%= $singularHumanName %>"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/index.ctp:43
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/view.ctp:67
+msgid "New <%= $singularHumanName %>"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/index.ctp:61
+msgid "<%= $pluralHumanName %>"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/login.ctp:25
+msgid "Please enter your username and password"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/login.ctp:29
+msgid "Login"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/view.ctp:64
+msgid "Edit <%= $singularHumanName %>"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/view.ctp:65
+msgid "Delete <%= $singularHumanName %>"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/view.ctp:75
+msgid "New <%= Inflector::humanize(Inflector::singularize(Inflector::underscore($alias))) %>"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/view.ctp:93
+msgid "<%= Inflector::humanize($details["
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/view.ctp:98;115;131;140;157
+msgid "<%= Inflector::humanize($field) %>"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/view.ctp:107
+msgid "<%= Inflector::humanize(Inflector::singularize(Inflector::underscore($alias))) %>"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/bake/src/Template/Bake/Template/view.ctp:152
+msgid "Related <%= $otherPluralHumanName %>"
+msgstr ""
+
+#: Template/Error/error400.ctp:37
+msgid "The requested address {0} was not found on this server."
+msgstr ""
+
+#: Template/Error/error500.ctp:39
+msgid "An Internal Error Has Occurred"
+msgstr ""
+
+#: Controller/Component/AuthComponent.php:464
+msgid "You are not authorized to access that location."
+msgstr ""
+
+#: Controller/Component/CsrfComponent.php:155
+msgid "Missing CSRF token cookie"
+msgstr ""
+
+#: Controller/Component/CsrfComponent.php:159
+msgid "CSRF token mismatch."
+msgstr ""
+
+#: Error/ExceptionRenderer.php:252
+msgid "Not Found"
+msgstr ""
+
+#: Error/ExceptionRenderer.php:254
+msgid "An Internal Error Has Occurred."
+msgstr ""
+
+#: I18n/Number.php:90
+msgid "{0,number,#,###.##} KB"
+msgstr ""
+
+#: I18n/Number.php:92
+msgid "{0,number,#,###.##} MB"
+msgstr ""
+
+#: I18n/Number.php:94
+msgid "{0,number,#,###.##} GB"
+msgstr ""
+
+#: I18n/Number.php:96
+msgid "{0,number,#,###.##} TB"
+msgstr ""
+
+#: I18n/Number.php:88
+msgid "{0,number,integer} Byte"
+msgid_plural "{0,number,integer} Bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} from now"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:83
+msgid "{0} after"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:83
+msgid "{0} before"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:114
+msgid "just now"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:151
+msgid "about a second ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:152
+msgid "about a minute ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:153
+msgid "about an hour ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:154;332
+msgid "about a day ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:155;333
+msgid "about a week ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:156;334
+msgid "about a month ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:157;335
+msgid "about a year ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:168
+msgid "in about a second"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:169
+msgid "in about a minute"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:170
+msgid "in about an hour"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:171;346
+msgid "in about a day"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:172;347
+msgid "in about a week"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:173;348
+msgid "in about a month"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:174;349
+msgid "in about a year"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:304
+msgid "today"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:370
+msgid "%s ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:371
+msgid "on %s"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:47;126;316
+msgid "{0} year"
+msgid_plural "{0} years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:51;129;319
+msgid "{0} month"
+msgid_plural "{0} months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:57;132;322
+msgid "{0} week"
+msgid_plural "{0} weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:59;135;325
+msgid "{0} day"
+msgid_plural "{0} days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:64;138
+msgid "{0} hour"
+msgid_plural "{0} hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:68;141
+msgid "{0} minute"
+msgid_plural "{0} minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:72;144
+msgid "{0} second"
+msgid_plural "{0} seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Network/Response.php:1473
+msgid "The requested file was not found"
+msgstr ""
+
+#: ORM/RulesChecker.php:57
+msgid "This value is already in use"
+msgstr ""
+
+#: ORM/RulesChecker.php:104
+msgid "This value does not exist"
+msgstr ""
+
+#: ORM/RulesChecker.php:128
+msgid "The count does not match {0}{1}"
+msgstr ""
+
+#: Utility/Text.php:894
+msgid "and"
+msgstr ""
+
+#: Validation/Validator.php:103
+msgid "This field is required"
+msgstr ""
+
+#: Validation/Validator.php:104
+msgid "This field cannot be left empty"
+msgstr ""
+
+#: Validation/Validator.php:1752
+msgid "The provided value is invalid"
+msgstr ""
+
+#: View/Helper/FormHelper.php:950
+msgid "New %s"
+msgstr ""
+
+#: View/Helper/FormHelper.php:953
+msgid "Edit %s"
+msgstr ""
+
+#: View/Helper/HtmlHelper.php:793
+msgid "Home"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:540
+msgid "January"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:541
+msgid "February"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:542
+msgid "March"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:543
+msgid "April"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:544
+msgid "May"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:545
+msgid "June"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:546
+msgid "July"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:547
+msgid "August"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:548
+msgid "September"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:549
+msgid "October"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:550
+msgid "November"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:551
+msgid "December"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/DebugTimer.php:135
+msgid "Core Processing (Derived from $_SERVER[\"REQUEST_TIME\"])"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:53
+msgid "Controller initialization"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:62
+msgid "Controller action start"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:63;68
+msgid "Controller action"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:73;74;94
+msgid "View Render start"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:83;88
+msgid "Render {0}"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:95
+msgid "Controller shutdown"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:45
+msgid "-> Testing :url"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:72
+msgid "Total Requests made: :requests"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:73
+msgid "Total Time elapsed: :duration (seconds)"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:77
+msgid "Requests/Second: :rps req/sec"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:81
+msgid "Average request time: :average-time seconds"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:85
+msgid "Standard deviation of average request time: :std-dev"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:89
+msgid "Longest/shortest request: :longest sec/:shortest sec"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:147
+msgid "Allows you to obtain some rough benchmarking statisticsabout a fully qualified URL."
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:153
+msgid "The URL to request."
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:158
+msgid "Number of iterations to perform."
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:162
+msgid "Maximum total time for all iterations, in seconds.If a single iteration takes more than the timeout, only one request will be made"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:168
+msgid "Example Use: `cake benchmark --n 10 --t 100 http://localhost/testsite`. <info>Note:</info> this benchmark does not include browser render times."
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/cache_panel.ctp:21
+msgid "There were no cache operations this request."
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/cache_panel.ctp:25
+msgid "{0} Metrics"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/cache_panel.ctp:31
+msgid "Metric"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/cache_panel.ctp:32
+msgid "Total"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:28
+msgid "Application Constants"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:49
+msgid "No application environment available."
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:53
+msgid "CakePHP Constants"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:74
+msgid "CakePHP environment unavailable."
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:78
+msgid "PHP Environment"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:99
+msgid "PHP environment unavailable."
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:104
+msgid "Hidef Environment"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:125
+msgid "No Hidef environment available."
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/history_panel.ctp:23
+msgid "No previous requests logged."
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/history_panel.ctp:25
+msgid "previous requests available"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/history_panel.ctp:29;53
+msgid "Back to current request"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/log_panel.ctp:21
+msgid "There were no log entries made this request"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/log_panel.ctp:24
+msgid "{0} Messages"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/log_panel.ctp:28
+msgid "Time"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/log_panel.ctp:29
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:32
+msgid "Message"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/packages_panel.ctp:22
+msgid "{0} not found"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/packages_panel.ctp:27
+msgid "Direct dependencies only"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/packages_panel.ctp:32
+msgid "Requirements ({0})"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/packages_panel.ctp:58
+msgid "Dev Requirements ({0})"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/request_panel.ctp:31
+msgid "Headers already sent at file {0} and line {1}."
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/request_panel.ctp:40
+msgid "No post data."
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/request_panel.ctp:49
+msgid "No querystring data."
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/request_panel.ctp:59
+msgid "No Cookie data."
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/routes_panel.ctp:11
+msgid "Route name"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/routes_panel.ctp:12
+msgid "URI template"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/routes_panel.ctp:13
+msgid "Defaults"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/sql_log_panel.ctp:58
+msgid "Total Time: {0} ms &mdash; Total Queries: {1} &mdash; Total Rows: {2}"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/sql_log_panel.ctp:71
+msgid "Query"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/sql_log_panel.ctp:72
+msgid "Rows"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/sql_log_panel.ctp:73
+msgid "Took (ms)"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/sql_log_panel.ctp:91
+msgid "No active database connections"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:23
+msgid "Memory"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:25
+msgid "Peak Memory Use:"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:33
+msgid "Memory Use"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:48
+msgid "Timers"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:50
+msgid "Total Request Time:"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:57
+msgid "Event"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:58
+msgid "Time in ms"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:59
+msgid "Timeline"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Template/Element/variables_panel.ctp:28
+msgid "Sort variables by name"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/View/Helper/SimpleGraphHelper.php:76
+msgid "Starting {0}ms into the request, taking {1}ms"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/View/Helper/TidyHelper.php:110
+msgid "No markup errors found"
+msgstr ""
+
+#: C:/xampp/htdocs/cakephppre33/vendor/cakephp/debug_kit/src/Shell/WhitespaceShell.php:98
+msgid "Absolute path or relative to APP."
+msgstr ""
+

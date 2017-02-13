@@ -28,9 +28,9 @@
                 <td><?= h($user->created) ?></td>
              
                 <td class="actions">
-                    <?= $this->Html->link(__('View'), ['action' => 'view', $user->id],array('class'=>'btn btn-xs btn-info')) ?>
-                    <?= $this->Html->link(__('Edit'), ['action' => 'edit', $user->id],array('class'=>'btn btn-xs btn-success')) ?>
-                   <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $user->id], ['confirm' => __('Are you sure you want to delete # {0}?', $user->id),'class'=>'btn btn-danger btn-xs']) ?>
+                    <?= $this->Html->link(__(''), ['action' => 'view', $user->id],array('class'=>'btn btn-xs btn-info glyphicon glyphicon-plus')) ?>
+                    <?= $this->Html->link(__(''), ['action' => 'edit', $user->id],array('class'=>'btn btn-xs btn-success glyphicon glyphicon-edit')) ?>
+                   <?= $this->Form->postLink(__(''), ['action' => 'delete', $user->id], ['confirm' => __('Are you sure you want to delete # {0}?', $user->id),'class'=>'btn btn-danger btn-xs glyphicon glyphicon-trash']) ?>
                 </td>
             </tr>
             <?php endforeach; ?>

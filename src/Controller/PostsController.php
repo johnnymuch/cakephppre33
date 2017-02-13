@@ -120,9 +120,9 @@ class PostsController extends AppController
     */
     public $paginate = [
         'fields' => ['Posts.id','Posts.title','Posts.category','Posts.anthor', 'Posts.created'],
-        'limit' => 2,
+        'limit' => 5,
         'order' => [
-            'Posts.title' => 'asc'
+            'Posts.title' => 'DESC'
         ]
     ];
 }

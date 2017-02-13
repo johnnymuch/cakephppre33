@@ -15,7 +15,8 @@
             echo $this->Form->input('anthor');
             echo $this->Form->input('upload', ['type' => 'file']);
         ?>
+         <?= $this->Form->button(__('Submit'),array('class'=>'btn btn-primary btn-md')) ?>
     </fieldset>
-    <?= $this->Form->button(__('Submit')) ?>
+   
     <?= $this->Form->end() ?>
 </div>
