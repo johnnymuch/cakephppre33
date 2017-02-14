@@ -12,7 +12,7 @@ class UsersController extends AppController
 {
 	 public $paginate = [
         'fields' => ['Users.id','Users.username','Users.email', 'Users.created'],
-        'limit' => 5,
+        'limit' => 10,
         'order' => [
             'Users.title' => 'asc'
         ]

@@ -35,8 +35,8 @@
             <td><?= h($user->modified) ?></td>
         </tr>
         <tr>
-            <th scope="row"><?= __('Modified') ?></th>
-            <td><?= h($user->modified) ?></td>
+            <th scope="row"><?= __('image') ?></th>
+            <td><img src="/img/<?= h($user->image) ?>" alt=""></td>
         </tr>
     </table>
 </div>
