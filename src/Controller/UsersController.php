@@ -133,7 +133,7 @@ class UsersController extends AppController
 				$this->Auth->setUser($user);
 				return $this->redirect($this->Auth->redirectUrl());
 			} 
-			$this->Flash->errors(__('Enter Username or Password, Try Again'));      
+			$this->Flash->errors(__('Please Enter Username or Password, Try Again'));      
 		}
 
 	}

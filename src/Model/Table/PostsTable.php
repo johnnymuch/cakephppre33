@@ -56,16 +56,36 @@ class PostsTable extends Table
             ->notEmpty('title');
 
         $validator
+            ->requirePresence('title_kh', 'create')
+            ->notEmpty('title_kh');
+
+        $validator
             ->requirePresence('body', 'create')
             ->notEmpty('body');
+
+        $validator
+            ->requirePresence('body_kh', 'create')
+            ->notEmpty('body_kh');
 
         $validator
             ->requirePresence('category', 'create')
             ->notEmpty('category');
 
         $validator
+            ->requirePresence('category_kh', 'create')
+            ->notEmpty('category_kh');
+
+        $validator
             ->requirePresence('anthor', 'create')
             ->notEmpty('anthor');
+
+        $validator
+            ->requirePresence('anthor_kh', 'create')
+            ->notEmpty('anthor_kh');
+            
+        $validator 
+            ->requirePresence('image', 'create')
+            ->notEmpty('image');
      
 
         return $validator;

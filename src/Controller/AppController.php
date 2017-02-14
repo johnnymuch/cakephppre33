@@ -87,6 +87,7 @@ class AppController extends Controller
 
     public function beforeFilter(Event $event)
     {
+        //Configure::write('Config.language', $this->Session->read('Config.language'));
         // $this->Auth->allow(['add']);
         $this->set('username',$this->Auth->user('username'));
     }

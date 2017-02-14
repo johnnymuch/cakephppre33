@@ -10,10 +10,14 @@
         <legend><?= __('Add Post') ?></legend>
         <?php
             echo $this->Form->input('title');
+            echo $this->Form->input('title_kh');
             echo $this->Form->input('body');
+            echo $this->Form->input('body_kh');
             echo $this->Form->input('category');
+            echo $this->Form->input('category_kh');
             echo $this->Form->input('anthor');
-            echo $this->Form->input('upload', ['type' => 'file']);
+            echo $this->Form->input('anthor_kh');
+            echo $this->Form->file('image');
         ?>
          <?= $this->Form->button(__('Submit'),array('class'=>'btn btn-primary btn-md')) ?>
     </fieldset>
