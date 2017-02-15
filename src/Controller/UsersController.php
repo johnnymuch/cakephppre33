@@ -2,7 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
-
+use Cake\Datasource\ConnectionManager;
 /**
  * Users Controller
  *
@@ -10,13 +10,7 @@ use App\Controller\AppController;
  */
 class UsersController extends AppController
 {
-	 public $paginate = [
-        'fields' => ['Users.id','Users.username','Users.email', 'Users.created'],
-        'limit' => 10,
-        'order' => [
-            'Users.title' => 'asc'
-        ]
-    ];
+	
 
 
 	/**
@@ -133,7 +127,7 @@ class UsersController extends AppController
 				$this->Auth->setUser($user);
 				return $this->redirect($this->Auth->redirectUrl());
 			} 
-			$this->Flash->errors(__('Please Enter Username or Password, Try Again'));      
+			$this->Flash->errors(__('Please Enter Email or Password, Try Again'));      
 		}
 
 	}
@@ -141,9 +135,18 @@ class UsersController extends AppController
       {
 	return $this->redirect($this->Auth->logout());
       }
-      public function dashboard()
+     public function dashboard()
       {
           $this->viewBuilder()->layout('dashboard');
           
       }
+
+     public function serchKeyword()
+    {
+	 $search_keyword = $this->request->data['search_keyword'];
+	 $conn     = ConnectionManager::get('default'); //GET THE CATEGORY DATA
+  	 $stmt     = $conn->execute('SELECT * FROM users WHERE username like "%'.$search_keyword.'%"');
+  	 $user_data = $stmt ->fetchAll('assoc');
+	 echo json_encode($user_data); return $this->response;
+    }
 }

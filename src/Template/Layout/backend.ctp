@@ -28,9 +28,14 @@ $cakeDescription = 'Welcome to Cakephp Developer';
     <?= $this->Html->css('bootstrap.min.css') ?>
     <?= $this->Html->css('base.css') ?>
     <?= $this->Html->css('cake.css') ?>
+     <?= $this->Html->css('jquery.dataTables.min.css') ?>
 
+    <?= $this->Html->script('/js/jquery.autocomplete.js') ?>
     <?= $this->Html->script('/js/jquery-3.1.1.min.js') ?>
     <?= $this->Html->script('bootstrap.min.js') ?>
+
+    <?= $this->Html->script('//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js') ?>
+      <?= $this->Html->script('jquery.dataTables.min.js'); ?>
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
@@ -52,9 +57,9 @@ $cakeDescription = 'Welcome to Cakephp Developer';
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="/posts">Post <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="/users">USERS <span class="sr-only">(current)</span></a></li>
         <li><a href="/uploads">Uploads</a></li>
-        <li class="dropdown">
+      <!--   <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Languages <span class="caret"></span></a>
           <ul class="dropdown-menu text-center">
             <li><a href="#">English</a></li>
@@ -67,7 +72,7 @@ $cakeDescription = 'Welcome to Cakephp Developer';
             <li role="separator" class="divider"></li>
             <li><a href="#">Khmer</a></li>
           </ul>
-        </li>
+        </li> -->
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
